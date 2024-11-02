@@ -3,6 +3,34 @@
   <groupId>WebTesting</groupId>
   <artifactId>WebTesting</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
+<dependencies>
+
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.24.0</version>
+</dependency>
+
+
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.10.2</version>
+    <scope>test</scope>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-manager -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-manager</artifactId>
+    <version>4.24.0</version>
+</dependency>
+
+ </dependencies>  
+  
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
