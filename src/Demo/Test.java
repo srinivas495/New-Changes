@@ -20,6 +20,7 @@ public class Test {
 	//	driver.close();
 	//	driver.quit();
 		System.out.println("it's working fine");
+		System.out.println("All Setup done");
 
 	}
 
