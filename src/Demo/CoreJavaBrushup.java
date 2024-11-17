@@ -26,7 +26,7 @@ public class CoreJavaBrushup {
 		
 		int [] arr2 = {1,2,3,4,5,6,7,8,8,10};
 		
-		System.out.println(arr2[0]);
+		System.out.println(arr2[3]);
 	    System.out.println("**************************");	
 		//for loop
 		for(int i=0; i<arr.length; i++) 
